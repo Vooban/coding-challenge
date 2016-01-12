@@ -10,7 +10,7 @@ Coder un API servant à supporter une fonctionnalité de recherche sur des noms 
 - L'url de la ressource devrait être `/suggestions`
 - La recherche est passée en querystring dans le paramètre `q`.  Ce paramètre est obligatoire.
 - On peut ajouter la latitude et la longitude dans les paramètres `lat` et `long` respectivement.  Ces paramètres sont optionnels.
-- La source de données est une base de données SQLServer qui se crée automatiquement avec des données via FluentMigrator.  Voir script `.\startup.ps1`
+- La source de données est une base de données SQLServer qui se crée automatiquement avec des données via FluentMigrator.  Voir script `setup.ps1`
 - La réponse de l'API devrait être un JSON contenant un array de suggestions
 - Chaque suggestion doit contenir les informations suivantes:
     1) Nom de la ville, son pays et la province ou l'état (Ex: "Montréal, QC, Canada")
