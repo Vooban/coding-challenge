@@ -1,0 +1,2 @@
+﻿Invoke-Sqlcmd -serverinstance ".\sqlexpress" "Create Database VoobanCodingChallenge"
+Migrate.exe -a .\Coding-Challenge\bin\Coding-Challenge.dll -db SqlServer2014 --configPath.\Coding-Challenge\Web.config -c VoobanCodingChallenge
