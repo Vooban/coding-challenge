@@ -1,7 +1,7 @@
 ﻿(function () {
 
     var app = angular.module('suggestionApp.main');
-    
+
     //Declaring the Controller
     app.controller('suggestionController', function ($scope, suggestionAppService) {
         $scope.Criteria = "q"; //The Object used for selecting value
