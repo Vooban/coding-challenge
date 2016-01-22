@@ -1,9 +1,5 @@
-﻿"use strict";
+(function () {
 
-angular.module("myApp", [
-  "ngRoute",
-  "myApp.suggestions"
-]).
-config(["$routeProvider", function ($routeProvider) {
-    $routeProvider.otherwise({ redirectTo: "/suggestions" });
-}]);
+    var app = angular.module('suggestionApp', ['suggestionApp.main']);
+
+})();

@@ -1,4 +1,5 @@
 ﻿using System.Web;
+using System.Web.Routing;
 using System.Web.Http;
 
 namespace Coding_Challenge
@@ -8,6 +9,7 @@ namespace Coding_Challenge
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
     }
 }
